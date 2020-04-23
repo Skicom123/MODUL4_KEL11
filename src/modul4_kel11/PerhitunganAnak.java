@@ -12,6 +12,6 @@ public class PerhitunganAnak {
         float bulan = inputUsia.nextFloat();
         float hasil_anak = (float) (2*(tahun+(bulan*0.1))+8);
         System.out.println("BMI anak: " + hasil_anak);
-        return hasil_anak;
+        return hasil_anak; /** nanti hasil anaknya keluar */
     }
 }
